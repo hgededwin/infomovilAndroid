@@ -1,0 +1,42 @@
+<resources xmlns:android="http://schemas.android.com/apk/res/android">
+
+    <!--
+        Base application theme, dependent on API level. This theme is replaced
+        by AppBaseTheme from res/values-vXX/styles.xml on newer devices.
+    -->
+    <style name="AppBaseTheme" parent="android:Theme.Light">
+        <!--
+            Theme customizations available in newer API levels can go in
+            res/values-vXX/styles.xml, while customizations related to
+            backward-compatibility can go here.
+        -->
+    </style>
+
+    <!-- Application theme. -->
+    <style name="AppTheme" parent="AppBaseTheme">
+        <!-- All customizations that are NOT specific to a particular API-level can go here. -->
+    </style>
+    
+    
+    
+    <style name="MyCustomTheme" parent="Theme.Sherlock">
+     <item name="actionBarStyle">@style/Theme.Sherlock</item>
+     <item name="android:actionBarStyle">@style/ActionBar</item>
+     </style>
+     
+    <style name="ActionBar" parent="Widget.Sherlock.ActionBar">
+        <item name="android:background">#13BA32</item>
+        <item name="android:titleTextStyle">@style/customTextAppearance.Sherlock.Widget.ActionBar.Title</item> 
+        <item name="titleTextStyle">@style/customTextAppearance.Sherlock.Widget.ActionBar.Title</item>
+        
+    </style>
+    
+    
+    <style name="customTextAppearance.Sherlock.Widget.ActionBar.Title" parent="TextAppearance.Sherlock.Widget.ActionBar.Title">
+        <item name="android:textSize">20sp</item>
+        <item name="android:textColor">#FFF</item>
+    </style>
+     
+    
+
+</resources>

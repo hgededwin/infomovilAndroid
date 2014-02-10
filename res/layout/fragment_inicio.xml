@@ -1,0 +1,165 @@
+<LinearLayout
+    xmlns:android="http://schemas.android.com/apk/res/android"
+    android:layout_width="wrap_content"
+    android:layout_height="wrap_content"
+    android:orientation="vertical"
+    android:background="#ffffff">    
+    
+    <RelativeLayout 
+    android:layout_width="fill_parent"
+    android:layout_height="fill_parent">
+    <!--  android:background="#0096A2"-->
+     
+
+   <RelativeLayout
+	android:id="@+id/lytfgtClima"
+    android:layout_width="wrap_content"
+    android:layout_height="wrap_content"
+    android:paddingLeft="10dp">
+    
+    <TextView 
+        android:id="@+id/fecha"
+        android:layout_width="wrap_content"
+        android:layout_height="wrap_content"
+        android:textColor="#fff"
+        android:paddingRight="20dp"
+        android:textSize="20sp"
+        android:layout_alignParentRight="true"/>
+    
+    
+    
+     <TextView 
+        android:id="@+id/clima"
+        android:layout_width="fill_parent"
+        android:layout_height="wrap_content"
+       android:layout_alignParentLeft="true"
+        android:textColor="#fff"
+        android:textSize="20sp"/>
+    
+    <TextView 
+        android:id="@+id/temperatura"
+        android:layout_width="wrap_content"
+        android:layout_height="wrap_content"
+        android:paddingLeft="10dp"
+        android:layout_gravity="center"
+        android:layout_below="@+id/clima"
+        android:textColor="#fff"
+        android:textSize="50sp"/>
+
+    <ImageView
+        android:id="@+id/iconoClima"
+        android:layout_width="60dp"
+        android:layout_height="40dp"
+        android:layout_alignParentRight="true"
+        android:layout_alignTop="@+id/temperatura"
+        android:layout_marginRight="20dp"/>
+     
+   </RelativeLayout>
+     
+	</RelativeLayout>
+	
+    
+	<LinearLayout
+    android:orientation="horizontal"
+    android:layout_width="wrap_content"
+    android:layout_height="wrap_content"
+    android:background="#ffffff">
+   
+	    
+    <LinearLayout
+    android:orientation="vertical"
+    android:layout_width="wrap_content"
+    android:layout_height="wrap_content"
+    android:background="#ffffff">
+    
+        
+    <TextView 
+        android:id="@+id/colorCircula"
+        android:layout_width="wrap_content"
+        android:layout_height="wrap_content"
+       	android:layout_marginLeft="10dp"
+       	 	 android:layout_marginTop="10dp"
+        android:background="@drawable/amarillo"
+        android:textColor="#000000"
+        android:textAlignment="center"
+        android:text=""
+        android:textSize="25sp"/>
+    
+    
+    <TextView 
+        android:layout_width="wrap_content"
+        android:layout_height="wrap_content"
+        android:layout_marginTop="10dp"
+        android:layout_marginLeft="10dp"
+        android:textColor="#929292"
+        android:text="@string/nocircula"
+        android:textSize="20sp"/>
+    
+    
+     <TextView 
+         android:id="@+id/dia"
+        android:layout_width="wrap_content"
+        android:layout_height="wrap_content"
+        android:layout_marginLeft="10dp"
+        android:textColor="#929292"
+        android:text=""
+        android:textSize="20sp"/>
+    </LinearLayout>
+    
+    <ImageView 
+        android:layout_width="wrap_content"
+        android:layout_height="wrap_content"
+        android:src="@drawable/sicir"/>
+    
+</LinearLayout>
+    
+    
+    <RelativeLayout
+        android:layout_width="match_parent"
+        android:layout_height="wrap_content"
+        android:layout_marginTop="5dp"
+        android:background="#238934"
+        android:paddingLeft="10dp" >
+        
+        <TextView
+            android:id="@+id/estadoAire"
+            android:layout_width="wrap_content"
+            android:layout_height="wrap_content"
+            android:text="@string/calidadaire"
+            android:textColor="#fff"
+            android:layout_marginTop="5dp"
+            android:textSize="20sp"
+            android:paddingRight="10dp"/>
+
+        <TextView 
+            android:layout_width="wrap_content"
+            android:layout_height="wrap_content"
+            android:text="@string/textopensamiento"
+            android:textColor="#fff"
+            android:layout_below="@+id/estadoAire"
+            android:paddingTop="10dp"
+            android:paddingBottom="3dp"
+            android:textSize="15sp"/>
+
+                <ImageButton
+                    android:id="@+id/flecha"
+                    android:layout_width="35dp"
+                    android:layout_height="35dp"
+                    android:layout_alignParentRight="true"
+                    android:layout_centerVertical="true"
+                    android:layout_marginRight="10dp"
+                    android:background="@drawable/flechava" />
+
+                <TextView
+                    android:id="@+id/estado"
+                    android:layout_width="wrap_content"
+                    android:layout_height="wrap_content"
+                    android:layout_alignTop="@+id/estadoAire"
+                    android:layout_toRightOf="@+id/estadoAire"
+                    android:text=""
+                    android:textColor="#fff"
+                    android:textSize="20sp" />
+
+        </RelativeLayout>
+        
+</LinearLayout>

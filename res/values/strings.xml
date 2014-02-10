@@ -1,0 +1,52 @@
+<?xml version="1.0" encoding="utf-8"?>
+<resources>
+
+    <string name="app_name">InfoMovil</string>
+    <string name="action_settings">Settings</string>
+    <string name="hello_world">Hello world!</string>
+    <string name="drawer_open">Open the Drawer</string>
+    <string name="drawer_close">Close the Drawer</string>
+    
+    
+<!--     Contenido fragment Inicio -->
+	<string name="textopensamiento">Hoy puedes hacer un dia ecologico</string>
+	<string name="calidadaire">Calidad del aire:</string>
+	<string name="nocircula">Hoy no circula</string>
+	
+	
+<!-- 	Contenido del menu action bar -->
+    <string-array  name="MenuFragments">
+        <item>Inicio</item>
+        <item>Autos</item>
+        <item>Tenencia</item>
+        <item>Verificación</item>
+        <item>Hoy no circula</item>
+        <item>Infracciones</item>
+        <item>Depósito de vehículos</item>
+        <item>Acerca de</item>
+    </string-array>
+    
+<!--     Contenido fragment Circula e Info -->
+
+	<string name="txtInfoUno">Los vehículos de combustión interna, matriculados en el Distrito Federal
+	    o Estado de México, deben dejar de circular de Lunes a Sábado de las 5:00 a las 22:00 horas.</string>
+	<string name="txtInfoDos">Base en el último dígito numérico de la placa de matrícula y/o del color de la calcomanía
+	    de circulación.</string>
+	<string name="txtInfoTres">La restricción aplica de acuerdo a lo establecido en la siguiente tabla:</string>
+	<string name="lunes">Lunes</string>
+	<string name="martes">Martes</string>
+	<string name="miercoles">Miercoles</string>
+	<string name="jueves">Jueves</string>
+	<string name="viernes">Viernes</string>
+	<string name="pcaslunes">(5 y 6)</string>
+	<string name="pcasmartes">(7 y 8)</string>
+	<string name="pcasmiercoles">(3 y 4)</string>
+	<string name="pcasjueves">(1 y 2)</string>
+	<string name="pcasviernes">(9 y 0)</string>
+	<string name="sablunes">Primer sábado de cada mes</string>
+	<string name="sabmartes">Segundo sábado de cada mes</string>
+	<string name="sabmiercoles">Tercer sábado de cada mes</string>
+	<string name="sabjueves">Cuarto sábado de cada mes</string>
+	<string name="sabviernes">Quinto sábado de cada mes</string>
+
+</resources>
